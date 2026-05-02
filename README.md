@@ -25,6 +25,10 @@
 - Fabric API
 - Java 25 以上
 
+## 入れ方
+build/libsにあるjarファイルをfabricのmodsフォルダに入れる
+エラーでたらすまん
+
 ## ビルド
 
 ```bash
