@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["GDG", "DAD", "GDG"],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "D": "minecraft:diamond",
+    "A": "iron_extractor:advanced_extractor"
+  },
+  "result": {"id": "iron_extractor:expert_extractor"}
+}

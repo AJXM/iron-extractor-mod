@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "iron_extractor:block/basic_extractor" },
+    "lit=true":  { "model": "iron_extractor:block/basic_extractor_on" }
+  }
+}

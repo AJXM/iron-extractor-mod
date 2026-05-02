@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": { "all": "iron_extractor:block/expert_extractor_on" }
+}

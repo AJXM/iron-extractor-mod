@@ -1,9 +1,38 @@
-# Example Mod
+# Iron Extractor
 
-## Setup
+石や土を投入して鉄インゴットを生み出す工業系 Minecraft MOD です。
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## 概要
 
-## License
+- 石・土などのブロックを素材として鉄インゴットを生産する機械を追加します
+- 初級・中級・上級の 3 段階があり、上位ほど処理速度・確率が高くなります
+- 燃料を投入することで処理速度をさらに向上できます
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## 機械の種類
+
+| 機械 | 石の確率 | 処理速度（燃料なし） | 処理速度（燃料あり） |
+|------|---------|-------------------|-------------------|
+| 初級 鉄抽出機 | 30% | 5秒/個 | 2.5秒/個 |
+| 中級 鉄抽出機 | 50% | 3秒/個 | 1.2秒/個 |
+| 上級 鉄抽出機 | 70% | 1.5秒/個 | 0.5秒/個 |
+
+詳しい使い方は [GUIDE.md](GUIDE.md) を参照してください。
+
+## 動作環境
+
+- Minecraft 26.1.2
+- Fabric Loader 0.19.2 以上
+- Fabric API
+- Java 25 以上
+
+## ビルド
+
+```bash
+./gradlew build
+```
+
+`build/libs/` に `.jar` ファイルが生成されます。
+
+## ライセンス
+
+MIT License
